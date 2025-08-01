@@ -1,6 +1,6 @@
 #include "Task.h"
 
-void Task::setId(int id)
+void Task::setId(short id)
 {
     this->m_id = id;
 }

@@ -13,3 +13,5 @@ domain:
 
 
 Header files should include other header files!
+
+Sets are cool. You can store unique and ordered elements. You can apply binary search on sets to make faster searches.

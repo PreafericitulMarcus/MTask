@@ -8,7 +8,7 @@ using std::string;
 class Task
 {
 private:
-    int m_id;
+    short m_id = 0;
     string m_name = "new task";
     bool m_completed = false;
     bool m_starred = false;
@@ -16,10 +16,9 @@ private:
     time_t m_time;
 
 public:
+    Task(short id, string name, bool completed, bool star, string detail, time_t time);
 
-    Task(int id, string name, bool completed, bool star, string detail, time_t time);
-
-    void setId(int id);
+    void setId(short id);
     int getId() const;
 
     void setName(string name);

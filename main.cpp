@@ -1,10 +1,12 @@
 #include <iostream> 
-#include <ctime>
+#include <set>
+
+using std::set;
+using std::cout;
 
 int main()
 {
-    time_t t;
-    time(&t);
-    std::cout << ctime(&t) << std::endl;
+    
+
     return 0;
 }

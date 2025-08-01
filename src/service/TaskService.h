@@ -10,7 +10,7 @@ private:
 
 public:
     void create(string name, bool completed, bool starred, string detail, time_t time);
-    void remove();
+    void remove(short id);
     void modify();
-    void print();
+    void printAll();
 };
