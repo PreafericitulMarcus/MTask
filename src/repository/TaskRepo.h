@@ -5,7 +5,7 @@ class TaskRepo{
         Task m_task;
     
     public: 
-        void add();
+        void add(Task task);
         void printAll();
         void modify();
         void remove();

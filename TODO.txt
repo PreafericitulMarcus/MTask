@@ -12,6 +12,11 @@ repository:
 service:
 
 utils:
+    createId
+        Look into: 
+            - Add a Random Component: Incorporate a random number or UUID to further reduce   chance of collisions.
+            - Validate Inputs: Ensure name is non-empty and time is valid before hashing.
+            - Use Cryptographic Hashing: For higher uniqueness and security, consider using a cryptographic hash function like SHA256 instead of std::hash.
 
 ui:
 

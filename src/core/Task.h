@@ -3,6 +3,8 @@
 
 using std::string;
 
+// string name, bool completed, bool starred, string detail, time_t time
+
 class Task
 {
 private:
