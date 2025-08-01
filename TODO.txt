@@ -1,0 +1,19 @@
+domain:
+    Task.h
+        - finish adding defaut values to task.
+    
+    Task.cpp 
+        - printTask method;
+        - validation for setters;
+
+repository:
+
+
+service:
+
+utils:
+
+ui:
+
+tests:
+

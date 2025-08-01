@@ -1,0 +1,15 @@
+Constant functions / variables
+
+domain:
+    having const getters. because you don't want to change anything about them, you just recieve information.
+
+
+Naming conventions:
+
+domain:
+    class should start with uppercase
+    private member variables should start with "m_"
+    simple names for funtions. From "getTaskId" -> "getId".
+
+
+Header files should include other header files!
